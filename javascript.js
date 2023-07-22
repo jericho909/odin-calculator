@@ -29,7 +29,7 @@ function getPlayerChoice() {
     let playerChoice;
 
     do {
-        playerChoice = prompt("Make your choice: rock, paper or scissors?")
+        playerChoice = prompt("Make your choice: rock, paper or scissors?").toLowerCase()
     } while (!choices.includes(playerChoice))
     return playerChoice
 }
