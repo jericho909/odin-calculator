@@ -1,0 +1,55 @@
+body {
+    background-color: #9fa8a3;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    font-size: 22px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.scores {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+    padding: 22px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.footer {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    padding: 12px;
+}
+
+#resultTable {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    background-color: #E5E7EB;
+}
+
+#playAgainButton {
+    padding: 20px;
+}

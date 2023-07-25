@@ -3,13 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Rock,Paper,Scissors</title>
-    <script src="javascript.js"></script>
+    <title>Simple Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
 </head>
 <body>
-    <h1 style="text-align: center;">
-        Thank you for playing!
-    </h1>
+    
+    <div class="header">Welcome to Rock, Paper, Scissors</div>
+    <div class="content">
+        <div class="scores">
+            <div class="player">PLAYER :</div>
+            <div class="player score" id="pScore"></div>
+            <div class="cpu score" id="cScore"></div>
+            <div class="score">: CPU</div>
+        </div>
+        <div class="buttons" id="btn">
+            <button class="rock">ROCK</button>
+            <button class="paper">PAPER</button>
+            <button class="scissors">SCISSORS</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p style="margin: 0;">Made by <a href="https://github.com/jericho909" target="_blank" rel="noopener noreferrer">jericho909</a></p>
+        <p style="margin: 0;">For <a href="https://www.theodinproject.com/" target="_blank" rel="noopener noreferrer">The Odin Project</p>
+    </div>
     
 </body>
 </html>
